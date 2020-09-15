@@ -6,7 +6,8 @@
 
     <v-row justify="center">
 
-    <v-col cols="12" sm="12">
+    <v-col cols="4" sm="4">
+
       <v-card>
         <v-card-title class="teal darken-1">
           <span class="headline white--text"> <v-icon>mdi-shield-account</v-icon> {{ post.nafn }}</span>
@@ -31,7 +32,6 @@
             </v-list-item-content>
             <v-list-item-action>
 
-              <v-icon>mdi-message-text</v-icon>
             </v-list-item-action>
           </v-list-item>
 
@@ -45,22 +45,6 @@
             <v-list-item-content>
               <v-list-item-title>{{ post.postnr }} {{ post.stadur }}</v-list-item-title>
             </v-list-item-content>
-
-            <v-list-item-action>
-              <v-icon>mdi-message-text</v-icon>
-            </v-list-item-action>
-          </v-list-item>
-
-          <v-divider inset></v-divider>
-
-          <v-list-item @click="">
-            <v-list-item-action>
-              <v-icon>mdi-cellphone-android</v-icon>
-            </v-list-item-action>
-
-            <v-list-item-content>
-              <v-list-item-title>7546598</v-list-item-title>
-            </v-list-item-content>
           </v-list-item>
 
           <v-divider inset></v-divider>
@@ -72,6 +56,18 @@
 
             <v-list-item-content>
               <v-list-item-title>{{ post.kt }}</v-list-item-title>
+            </v-list-item-content>
+          </v-list-item>
+
+          <v-divider inset></v-divider>
+
+          <v-list-item @click="">
+            <v-list-item-action>
+              <v-icon>mdi-cellphone-android</v-icon>
+            </v-list-item-action>
+
+            <v-list-item-content>
+              <v-list-item-title>7546598</v-list-item-title>
             </v-list-item-content>
           </v-list-item>
         </v-list>
